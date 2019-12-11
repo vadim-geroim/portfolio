@@ -1,4 +1,21 @@
 .header {
   height: 50px;
   background-color: #61dafb;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid;
+  width: 80%;
+}
+
+.nav {
+  border: 1px solid;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
 }

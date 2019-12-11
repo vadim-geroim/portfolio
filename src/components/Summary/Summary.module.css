@@ -1,4 +1,29 @@
 .summary {
   height: 100vh;
-  background-color: antiquewhite;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  border: 1px solid;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  background-color: grey;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.photo {
+  background-color: greenyellow;
+  height: 600px;
+  width: 400px;
 }
