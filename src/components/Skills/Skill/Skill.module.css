@@ -1,7 +1,7 @@
 .skill {
+  height: 60vh;
+  width: 40vh;
   border: 2px solid;
-  height: 800px;
-  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,14 +9,14 @@
 }
 
 .skillIcon {
+  height: 5vh;
+  width: 5vh;
   border: 2px solid;
-  height: 50px;
-  width: 50px;
   background-color: grey;
 }
 
 .skillInfo {
+  height: 30vh;
+  width: 100%;
   border: 2px solid;
-  height: 300px;
-  width: 100%
 }

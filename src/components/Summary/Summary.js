@@ -11,7 +11,6 @@ const Summary = () => {
           <span>I'm a full-stack web developer</span>
         </div>
         <div className={styles.photo}>
-          <img src="#" alt="Profile image"/>
         </div>
       </div>
     </div>

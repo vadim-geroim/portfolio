@@ -1,27 +1,26 @@
-.hireWrapper {
-  height: 20vh;
-  background-color: darkkhaki;
+.project {
+  border: 2px solid;
+  width: 400px;
+}
+
+.projectPicture {
+  background-color: grey;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hireContent {
-  border: 2px solid;
-  height: 15vh;
-  width: 80%;
+.projectInfo {
+  background-color: dimgrey;
+  height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-.hireTitle {
-  background-color: grey;
-  font-size: 16px;
-}
-
-.hireButton {
+.viewButton {
   background-color: dimgrey;
   border: none;
   color: white;

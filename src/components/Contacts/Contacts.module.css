@@ -1,6 +1,15 @@
-.contacts {
+.contactsWrapper {
   height: 100vh;
   background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsContent {
+  height: 80vh;
+  width: 80%;
+  border: 2px solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,15 +22,11 @@
 }
 
 .contactsForm {
-  height: 400px;
-  width: 500px;
+  height: 40vh;
+  width: 50vh;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-}
-
-.contactsSend {
-  width: 200px;
 }
 
 input[type=text] {
@@ -37,9 +42,11 @@ input[type=text] {
 form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 input[type=submit] {
+  width: 200px;
   background-color: dimgrey;
   border: none;
   color: white;
@@ -55,8 +62,8 @@ input[type=submit]:hover {
 }
 
 textarea {
+  height: 20vh;
   width: 100%;
-  height: 200px;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;

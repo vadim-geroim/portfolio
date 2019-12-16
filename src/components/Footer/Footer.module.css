@@ -1,14 +1,14 @@
-.footer {
-  height: 300px;
+.footerWrapper {
+  height: 30vh;
   background-color: greenyellow;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footerWrapper {
+.footerContent {
   border: 2px solid;
-  height: 70%;
+  height: 25vh;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
   background-color: grey;
 }
 
-.footerContent {
+.footerItems {
   width: 80%;
   margin: auto;
   display: flex;
